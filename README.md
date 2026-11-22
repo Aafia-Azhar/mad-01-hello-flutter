@@ -1,41 +1,19 @@
 # Hello Flutter: week 1 starter
 
-This is the starter app for week 1 of Mobile Application Development.
-
-This project needs Flutter 3.50.0 or newer. Use the latest stable version.
+Starter app for week 1 Mobile Application Development (requires Flutter 3.50.0+).
 
 ## How to run
-
-1. Connect your Android phone to your laptop with a USB cable. USB debugging must be on.
-2. Open a terminal in this folder and run these two commands:
-
+1. Connect Android phone via USB (enable USB debugging).
+2. Run in terminal:
    ```bash
    flutter pub get
    flutter run
    ```
 
-The first build takes several minutes. Then your phone shows "Hello, Your Name!".
+## Tasks & Tests
+* Complete `TODO 1` and `TODO 2` inside `lib/main.dart` as outlined in your handout.
+* Run tests via `flutter test` (the `greetingFor` tests will pass once `TODO 2` is complete).
 
-## Your two tasks
-
-Open `lib/main.dart`. Do `TODO 1` and `TODO 2`. The handout explains each step.
-
-## Tests
-
-Run the tests with this command:
-
-```bash
-flutter test
-```
-
-The five `greetingFor` tests fail until you finish `TODO 2`. This is expected. When `TODO 2` is done, the last line says "All tests passed!".
-
-## My screenshot
-
-![The app on my phone](screenshot.jpg)
-
-Replace this picture with your own. Take a screenshot of the app on your phone, name it `screenshot.jpg`, and put it in the top folder of this repository, next to this README.
-
-## AI note
-
-Replace this line with one sentence that says what you asked AI, or write "I didn't use AI".
+## My screenshot & AI Note
+* **Screenshot:** `![The app on my phone](screenshot.png)`
+* **AI Note:** Used for Flutter environment/dependency checks, Infinix USB debugging/Android SDK setup, and unit test fixes.
